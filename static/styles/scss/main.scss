@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Rubik|Bitter");
+@import url("https://fonts.googleapis.com/css?family=Rubik|Bitter|Vollkorn");
 @import "flexboxgrid";
 
 // TODO: Cleanup
@@ -9,6 +9,7 @@ $black: #212121;
 $storm: #4E6B6C;
 $smoke: #F7F7F7;
 $accent: #DA784D;
+$green: #255111;
 
 // Fonts
 $font-header: "Bitter", "Roboto Slab", "Cambria", Georgia, serif;
@@ -164,7 +165,7 @@ nav {
   a {
     color: #FFF;
     &:hover {
-      color: $accent;
+      color: $green;
     }
   }
 }
@@ -225,7 +226,7 @@ a {
   img {
     border: none;
   }
-  &:hover { color: $accent }
+  &:hover { color: $green }
 }
 img {
   margin: 0 auto;
@@ -294,7 +295,7 @@ ul li {
   font-family: $font-header;
   content: '\201C';
   font-size: 35px;
-  color: $accent;
+  color: $green;
 }
 blockquote {
   font-family: $font-header;
@@ -349,13 +350,13 @@ blockquote {
     -0.12em 0.075em #fff,
     0.15em 0.075em #fff,
     -0.15em 0.075em #fff;
-    background-image: linear-gradient($accent,$accent);
+    background-image: linear-gradient($green,$green);
     background-size: 1px 2px;
     background-repeat: repeat-x;
     background-position: 0 95%;
     text-decoration: none;
     &:hover {
-      color: $accent;
+      color: $green;
     }
   }
 }
@@ -404,13 +405,13 @@ blockquote {
     -0.12em 0.075em #fff,
     0.15em 0.075em #fff,
     -0.15em 0.075em #fff;
-    background-image: linear-gradient($accent,$accent);
+    background-image: linear-gradient($green,$green);
     background-size: 2px 3px;
     background-repeat: repeat-x;
     background-position: 0 95%;
     text-decoration: none;
     &:hover {
-      color: $accent;
+      color: $green;
     }
   }
 }
@@ -440,7 +441,7 @@ blockquote {
   a {
     color: #FFF;
     &:hover {
-      color: $accent;
+      color: $green;
     }
   }
   h2 {
@@ -484,7 +485,7 @@ input {
     color: #FFF;
     transition: .2s ease-out;
     &:hover {
-      background-color: $accent;
+      background-color: $green;
       color: #FFF;
       cursor: pointer;
     }
